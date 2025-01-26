@@ -82,6 +82,30 @@
 
 .animalesDeLaGranja img{width: 25%;}
 
+/****/
+.flex-container .animalesSalvajes {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;}
+
+
+.tituloAnimalesSalvajes{font-size: 3.5em; 
+}
+
+.animalesSalvajes{margin: 2%;
+}
+
+.animalesSalvajes img{border-radius: 1%}
+
+.animalesSalvajes img{width: 100%; margin: 0.5%; padding: 2%;}
+
+
+
+.animalesSalvajes img{border-radius: 1%;}
+
+.animalesSalvajes img{width: 25%;}
+
 
 
 @media screen and (max-width: 595px)
@@ -132,6 +156,16 @@
 
 
 .tituloAnimalesDeLaGranja{font-size: 2em;}
+
+.animalesSalvajes{margin: 2%;
+}
+
+.animalesSalvajes img{border-radius: 1%}
+
+.animalesSalvajes img{width: 100%; margin: 0.5%; padding: 2%;}
+
+
+.tituloAnimalesSalvajes{font-size: 2em;}
 
 }
 
