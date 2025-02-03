@@ -106,6 +106,32 @@
 
 .animalesSalvajes img{width: 25%;}
 
+/**/
+
+.flex-container .ciencias {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;}
+
+
+.tituloCiencias{font-size: 3.5em; 
+}
+
+.ciencias{margin: 2%;
+}
+
+.ciencias img{border-radius: 1%}
+
+.ciencias img{width: 100%; margin: 0.5%; padding: 2%;}
+
+
+
+.ciencias img{border-radius: 1%;}
+
+.ciencias img{width: 25%;}
+
+
 
 
 @media screen and (max-width: 595px)
@@ -166,6 +192,14 @@
 
 
 .tituloAnimalesSalvajes{font-size: 2em;}
+
+
+.ciencias img{border-radius: 1%}
+
+.ciencias img{width: 100%; margin: 0.5%; padding: 2%;}
+
+
+.tituloCiencias{font-size: 2em;}
 
 }
 
