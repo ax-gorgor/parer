@@ -132,6 +132,30 @@
 .ciencias img{width: 25%;}
 
 
+.flex-container .clima {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;}
+
+
+.tituloClima{font-size: 3.5em; 
+}
+
+.clima{margin: 2%;
+}
+
+.clima img{border-radius: 1%}
+
+.clima img{width: 100%; margin: 0.5%; padding: 2%;}
+
+
+
+.clima img{border-radius: 1%;}
+
+.clima img{width: 25%;}
+
+
 
 
 @media screen and (max-width: 595px)
@@ -172,6 +196,7 @@
 
 .tituloGeograficos {font-size: 2em;}
 
+/**/
 
 .animalesDeLaGranja{margin: 2%;
 }
@@ -183,6 +208,8 @@
 
 .tituloAnimalesDeLaGranja{font-size: 2em;}
 
+/**/
+
 .animalesSalvajes{margin: 2%;
 }
 
@@ -193,6 +220,7 @@
 
 .tituloAnimalesSalvajes{font-size: 2em;}
 
+/**/
 
 .ciencias img{border-radius: 1%}
 
@@ -200,6 +228,15 @@
 
 
 .tituloCiencias{font-size: 2em;}
+
+/**/
+
+.clima img{border-radius: 1%}
+
+.clima img{width: 100%; margin: 0.5%; padding: 2%;}
+
+
+.tituloClima{font-size: 2em;}
 
 }
 
