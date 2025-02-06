@@ -156,6 +156,32 @@
 .clima img{width: 25%;}
 
 
+.flex-container .hogar {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;}
+
+
+.tituloHogar{font-size: 3.5em; 
+}
+
+.hogar{margin: 2%;
+}
+
+.hogar img{border-radius: 1%}
+
+.hogar img{width: 100%; margin: 0.5%; padding: 2%;}
+
+
+
+.hogar img{border-radius: 1%;}
+
+.hogar img{width: 25%;}
+
+
+
+
 
 
 @media screen and (max-width: 595px)
@@ -237,6 +263,18 @@
 
 
 .tituloClima{font-size: 2em;}
+
+/**/
+.hogar img{border-radius: 1%}
+
+.hogar img{width: 100%; margin: 0.5%; padding: 2%;}
+
+
+.tituloHogar{font-size: 2em;}
+
+
+
+
 
 }
 
